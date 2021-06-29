@@ -47,6 +47,18 @@ p.blueberry {
   text-align: center;
   line-height: 1;
 }
+
+#elixirs a:link {
+  color: #007e7e;
+}
+#elixirs a:visited {
+  color: #333333;
+}
+#elixirs a:hover {
+  background: #f88396;
+  color: #0d5353;
+}
+
 #elixirs h2 {
   color: black;
 }
