@@ -27,22 +27,22 @@ p.blueberry {
 }
 #guarantee {
   line-height: 1.9em;
-  font-style: italic;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font: italic/1.6em Georgia, 'Times New Roman', Times, serif;
   color: #444444;
   border-width: 1px;
   border-style: dashed;
   border-color: white;
-  background-color: #a7cece;
   padding: 25px 25px 25px 80px;
   margin: 30px 250px 30px 30px;
-  background-image: url(https://stackblitz.com/files/head-first-lounge/github/CWW15/Head-First/master/background.gif);
-  background-repeat: no-repeat;
-  background-position: top left;
+  background: #a7cece
+    url(https://stackblitz.com/files/head-first-lounge/github/CWW15/Head-First/master/background.gif)
+    no-repeat top left;
 }
 #elixirs {
   border: thin solid #007e7e;
-  background:white url(https://stackblitz.com/files/head-first-lounge/github/CWW15/Head-First/master/cocktail.gif)repeat-x;
+  background: white
+    url(https://stackblitz.com/files/head-first-lounge/github/CWW15/Head-First/master/cocktail.gif)
+    repeat-x;
   width: 200px;
   text-align: center;
   line-height: 1;
@@ -51,7 +51,13 @@ p.blueberry {
   color: black;
 }
 #elixirs h3 {
-  color: #d12c47
+  color: #d12c47;
+}
+.cd {
+  font-style: italic;
+}
+.artist {
+  font-weight: bold;
 }
 
 #footer {
