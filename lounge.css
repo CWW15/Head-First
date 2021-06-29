@@ -1,6 +1,7 @@
 body {
   font-size: small;
   font-family: Verdana, Helvetica, Arial, sans-serif;
+  line-height: 1.6em;
 }
 
 h1,
@@ -9,15 +10,12 @@ h2 {
 }
 h1 {
   font-size: 150%;
-  border-bottom: 1px solid black;
+
 }
 h2 {
   font-size: 130%;
 }
 
-p {
-  color: maroon;
-}
 p.greentea {
   color: green;
 }
@@ -30,7 +28,14 @@ p.blueberry {
 .greentea {
   color: green;
 }
-
+.guarantee{
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #a7cece;
+  padding: 25px;
+  margin: 30px;
+}
 #footer {
   float: right;
 }
