@@ -1,7 +1,5 @@
 body {
-  font-size: small;
-  font-family: Verdana, Helvetica, Arial, sans-serif;
-  line-height: 1.6em;
+  font: small/1.6em Verdana, Helvetica, Arial, sans-serif;
 }
 
 h1,
@@ -32,25 +30,19 @@ p.blueberry {
   font-style: italic;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #444444;
-  border-color: black;
   border-width: 1px;
   border-style: dashed;
   border-color: white;
   background-color: #a7cece;
-  padding: 25px;
-  padding-left: 80px;
-  margin: 30px;
-  margin-right: 250px;
+  padding: 25px 25px 25px 80px;
+  margin: 30px 250px 30px 30px;
   background-image: url(https://stackblitz.com/files/head-first-lounge/github/CWW15/Head-First/master/background.gif);
   background-repeat: no-repeat;
   background-position: top left;
 }
 #elixirs {
-  border-width: thin;
-  border-style: solid;
-  border-color: #007e7e;
-  background-image: url(https://stackblitz.com/files/head-first-lounge/github/CWW15/Head-First/master/cocktail.gif);
-  background-repeat: repeat-x;
+  border: thin solid #007e7e;
+  background:white url(https://stackblitz.com/files/head-first-lounge/github/CWW15/Head-First/master/cocktail.gif)repeat-x;
   width: 200px;
   text-align: center;
   line-height: 1;
