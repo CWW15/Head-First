@@ -28,13 +28,19 @@ p.blueberry {
 .greentea {
   color: green;
 }
-.guarantee{
+#guarantee{
   border-color: black;
   border-width: 1px;
-  border-style: solid;
+  border-style: dashed;
+  border-color: white;
   background-color: #a7cece;
   padding: 25px;
+  padding-left: 80px;
   margin: 30px;
+  margin-right: 250px;
+  background-image: url(https://stackblitz.com/files/head-first-lounge/github/CWW15/Head-First/master/background.gif);
+  background-repeat: no-repeat;
+  background-position: top left;
 }
 #footer {
   float: right;
