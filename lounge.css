@@ -47,6 +47,7 @@ p.blueberry {
   text-align: center;
   line-height: 1;
   float: right;
+
 }
 
 #elixirs a:link {
@@ -74,7 +75,8 @@ p.blueberry {
 }
 
 #footer {
-  align-items: center;
-  float:left;
-  color: silver;
+  font-size: 50%;
+  text-align:center;
+  line-height: normal;
+  margin-top:30px;
 }
